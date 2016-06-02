@@ -1,0 +1,15 @@
+version: '2'
+
+############################
+# STRICTLY FOR DEVELOPMENT #
+############################
+#                          #
+# use ./up.sh for other    #
+#                          #
+############################
+
+services:
+  backend:
+    extends: 
+      file: dc.dev.yml
+      service: backend

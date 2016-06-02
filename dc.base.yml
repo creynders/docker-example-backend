@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: df.base
+    image: deb:base
+    environment:
+      PORT: "3000"
+    entrypoint: ["npm", "start"]

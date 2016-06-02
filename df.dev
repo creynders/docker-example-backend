@@ -1,0 +1,3 @@
+FROM deb:base
+
+RUN npm install

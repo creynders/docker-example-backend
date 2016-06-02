@@ -1,0 +1,16 @@
+version: '2'
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: df.dev
+    image: deb:dev
+    container_name: dev.backend
+    environment:
+      NODE_ENV: "development"
+    volumes:
+      - "./app:/home/deb/app"
+    ports:
+      - "3100:3000"
+      - "56745:56745"
+    entrypoint: ["npm", "run", "debug"]    

@@ -1,0 +1,3 @@
+FROM deb:base
+
+ADD app /home/deb/app
