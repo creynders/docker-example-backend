@@ -1,6 +1,6 @@
 # Docker-example-backend
 
-
+See [tutorial for full explanation](https://medium.com/@creynders/debugging-node-apps-in-docker-containers-through-webstorm-ae3f8efe554d)
 
 ## Prerequisites
 
